@@ -1,0 +1,9 @@
+StateAsp state1(0,0,'A');
+StateAsp state2(1,1,'B');
+std::cout << "Sujeira A: " << state1.getDirt()[0] << std::endl;
+std::cout << "Sujeira B: " << state1.getDirt()[1] << std::endl;
+std::cout << "Posição: " << state1.getPosition() << std::endl;
+state1 = state2;
+std::cout << "Sujeira A: " << state1.getDirt()[0] << std::endl;
+std::cout << "Sujeira B: " << state1.getDirt()[1] << std::endl;
+std::cout << "Posição: " << state1.getPosition() << std::endl;

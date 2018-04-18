@@ -1,0 +1,8 @@
+std::vector<int> v;
+std::cout << "Antes da adição de qualquer elemento" << std::endl;
+std::cout << "Tamanho do vector: " << v.size() << std::endl;
+std::cout << "Vetor vazio ? -> " << v.empty() << std::endl;
+std::cout << "\nDepois da adição de um elemento" << std::endl;
+v.push_back(10);
+std::cout << "Tamanho do vector: " << v.size() << std::endl;
+std::cout << "Vetor vazio ? -> " << v.empty() << std::endl;
